@@ -7,7 +7,7 @@ SCOREBOARD:
   - '&fPremium Matches: &6%premium_matches%'
   - '%tournament%'
   - '&7'
-  - '&6eu.udrop.club'
+  - '&evexus.gg | I wish I had this domain :('
   - '&7&M-----------------------'
   TOURNAMENT:
   - '&7'
@@ -29,5 +29,5 @@ SCOREBOARD:
   - '&7&M-----------------------'
   LOADING:
   - '&7&M-----------------------'
-  - '&a&lLoading...'
+  - '&a&lLoading %NPUNISHMENTS_3DOTSRELOAD%'
   - '&7&M-----------------------'

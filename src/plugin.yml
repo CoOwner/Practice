@@ -1,6 +1,6 @@
-name: "Practice"
-version: "2.0"
-author: "UnknownMyName"
+name: "nPractice"
+version: "3.0.3-BETA"
+author: "UnknownMyName | Dreamzy | Ubuntu | Kanna"
 main: "com.ubuntu.practice.uPractice"
 depend: [ProtocolLib]
 softdepend: [kPermissions , Vault]
