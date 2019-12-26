@@ -1,0 +1,33 @@
+SCOREBOARD:
+  LOBBY:
+  - '&7&M-----------------------'
+  - '&fOnline: &6%online_players%'
+  - '&fPlaying: &6%in_fights%'
+  - '&7'
+  - '&fPremium Matches: &6%premium_matches%'
+  - '%tournament%'
+  - '&7'
+  - '&6eu.udrop.club'
+  - '&7&M-----------------------'
+  TOURNAMENT:
+  - '&7'
+  - '&6Tournament&7:'
+  - '&7%tournament_stage%'
+  - '&7[%tournament_players_total%/32]'
+  - '&7&M-----------------------'
+  DUEL_NORMAL:
+  - '&7&M-----------------------'
+  - '&c&lOpponent&7: &f%opponent%'
+  - '&4&lDuration&7: &f%time_left%'
+  - '&e&lEnderpearl&7: &f%enderpearl%'
+  - '%tournament%'
+  - '&7&M-----------------------'
+  DUEL_FFA:
+  - '&7&M-----------------------'
+  - '&4&lDuration&7: &c%time_left%'
+  - '&e&lEnderpearl&7: &c%enderpearl%'
+  - '&7&M-----------------------'
+  LOADING:
+  - '&7&M-----------------------'
+  - '&a&lLoading...'
+  - '&7&M-----------------------'

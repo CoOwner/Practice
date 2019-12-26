@@ -1,0 +1,17 @@
+DATABASE:
+  MONGO:
+    HOST: 127.0.0.1
+    PORT: 27017
+    AUTHENTICATION:
+      ENABLED: false
+      DATABASE: practice
+      USER: user
+      PASSWORD: password
+COLORS:
+  MAIN_COLOR: DARK_GREEN
+  SIDE_COLOR: GREEN
+  EXTRA_COLOR: GRAY
+
+SCOREBOARD_TITLE: '&6&lPractice &7[&aEU&7]'
+TAB_TITLE: '  &6uDrop'
+TAB_ENABLE: false

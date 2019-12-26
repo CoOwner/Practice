@@ -1,0 +1,73 @@
+name: "Practice"
+version: "2.0"
+author: "UnknownMyName"
+main: "com.ubuntu.practice.uPractice"
+depend: [ProtocolLib]
+softdepend: [kPermissions , Vault]
+commands:
+  setting:
+      aliases: [settings, option , options]
+  ping:
+    description: 'Ping command'
+    usage: '/ping'
+  host:
+    description: 'Host Events command'
+    usage: '/host'
+  setspawn:
+    description: 'Set Spawn command'
+    usage: '/setspawn'
+  leave:
+    description: 'Leave command'
+    usage: '/leave'
+  join:
+    description: 'Join command'
+    usage: '/join'
+  tournament:
+    description: 'Tournament command'
+    aliases: [tourney, tour]
+    usage: '/tournament'
+  scoreboard:
+    description: 'Scoreboard command'
+    aliases: [sb, settings]
+    usage: '/scoreboard'
+  reset:
+    description: 'Reset command'
+    aliases: [resetelo, eloreset]
+    usage: '/reset'
+  credits:
+    description: 'Credits command'
+    aliases: [credit]
+    usage: '/credits'
+  arena:
+    description: 'Arena command'
+    usage: '/arena'
+  duel:
+    description: 'Send a duel'
+    usage: '/duel [player]'
+  accept:
+    description: 'Accept a player duel'
+    usage: '/accept [player]'
+  kit:
+    description: 'Kit command'
+    usage: '/kit'
+  spectate:
+    description: 'Spectate a player'
+    usage: '/spectate <playername>'
+    aliases: [spec]
+  builder:
+    description: 'Puts you into builder mode'
+    usage: '/builder'
+  party:
+    description: 'Party command'
+    usage: '/party'
+  inventory: {}
+permissions:
+  practice.commands.arena:
+    description: Gives access to the arena command
+    default: op
+  practice.commands.kit:
+    description: Gives access to the kit command
+    default: op
+  practice.commands.builder:
+    description: Gives access to the builder command
+    default: op
